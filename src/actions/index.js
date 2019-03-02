@@ -1,15 +1,24 @@
-import { GET_USERS_SAGA, SET_USERS } from '../constants';
+import {GET_FEEDBACK_LIST, GET_FEEDBACK_LIST_ERROR, SET_FEEDBACK_LIST} from '../constants';
 
-export function setUsers(users) {
+export function getFeedBack(page, limit) {
   return {
-    type: SET_USERS,
-    users
+    type: GET_FEEDBACK_LIST,
+    page,
+    limit
   };
 }
 
-//Sagas
-export function getUsersSaga() {
+export function setFeedBack(feedback, total) {
   return {
-    type: GET_USERS_SAGA
+    type: SET_FEEDBACK_LIST,
+    feedback,
+    total
+  };
+}
+
+export function getFeedBackError(error) {
+  return {
+    type: GET_FEEDBACK_LIST_ERROR,
+    error
   };
 }

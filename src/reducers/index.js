@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import usersReducer from './users';
+import feedbacksReducer from './feedback';
 
 export default combineReducers({
-  usersReducer
+  feedbacksReducer
 });

@@ -1,26 +1,19 @@
-# react-redux-saga-boilerplate
+## Test app
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/mCodex/react-redux-saga-boilerplate.svg)](https://greenkeeper.io/)
+Stack : 
+- `React`
+- `Redux`
+- `Saga`
+- `Webpack`
 
-My simple starter kit which I'd love to share to the community. The project was generated from `create-react-app` and then I included a few libraries.
+Task : https://gist.github.com/devbl/2c0e66fa90f85af201a3c8524a651cb5
 
-## Features Out-Of-The-Box
+### Deploy
 
-* React-Router 4
-* Semantic Ui
-* Redux
-* Redux Saga
-* ESlint
-* Airbnb's ESlint rules
-
-## Live Demo
-
-https://react-redux-saga-boilerplate.herokuapp.com/
-
-## Installation
-
-Clone repo and run:
+run:
 
 ```
-yarn && yarn start
+npm i
+npm run build
+json-server --watch src/db.json --port 3001
 ```
