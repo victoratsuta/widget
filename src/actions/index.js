@@ -1,4 +1,4 @@
-import {GET_FEEDBACK_LIST, GET_FEEDBACK_LIST_ERROR, SET_FEEDBACK_LIST} from '../constants';
+import { GET_FEEDBACK_LIST, GET_FEEDBACK_LIST_ERROR, SET_FEEDBACK_LIST } from '../constants';
 
 export function getFeedBack(page, limit) {
   return {

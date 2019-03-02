@@ -45,8 +45,8 @@ const styles = {
     'cursor': 'pointer',
     'outline': 'none'
   },
-  statisticContainer : {
-    'display' : 'inherit',
+  statisticContainer: {
+    'display': 'inherit',
     'marginTop': '5px'
   }
 };
